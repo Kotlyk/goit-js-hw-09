@@ -7,7 +7,7 @@ const daysLeft = document.querySelector('span[data-days]');
 const hoursLeft = document.querySelector('span[data-hours]');
 const minutesLeft = document.querySelector('span[data-minutes]');
 const secondsLeft = document.querySelector('span[data-seconds]');
-
+let timeId = null;
 
 startBtn.disabled = true;
 
